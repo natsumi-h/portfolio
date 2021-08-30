@@ -166,6 +166,13 @@ li {
 /*--------------------------------
  Works
 ---------------------------------*/
+.works-note{
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 20px;
+  display: none;
+}
+
 .works-list {
   display: flex;
   flex-wrap: wrap;
@@ -437,6 +444,10 @@ li {
   /* Works */
   .works-name {
     font-size: 10px;
+  }
+  
+   .works-note{
+    display: block;
   }
 
   .works-list {
